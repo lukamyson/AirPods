@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    background: #151515;
+}
+
+.nav {
+    background: #282828;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.left-logo {
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+
+
+}
+
+.left-nav__link {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.right-icon {
+    margin-left: 25px;
+}
+
+.header-content {
+    height: 700px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #151515 100%), url('../img/img1.png')no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content h1 {
+    color: #fff;
+    font-size: 10vw;
+    margin-bottom: 38px;
+    font-family: 'Prosto One';
+    font-weight: 400;
+}
+
+.btn {
+    background-color: #fff;
+    color: #171718;
+    font-size: 20px;
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+    padding: 13px 14px;
+    border-radius: 10px;
+
+}
+
+.right__block {
+    width: 50%;
+}
+
+.btn img {
+    margin-left: 11px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text {
+    width: 50vw;
+    margin-top: 80px;
+    color: white;
+    font-size: 1.5vw;
+    line-height: 27px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.right__img {
+    margin-top: 30px;
+
+}
+
+.mid__block {
+    width: 50vw;
+}
+
+.mid__img {
+    width: 15vw;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left__block {
+    width: 50vw;
+}
+
+.left-texts {
+    width: 50vw;
+    color: white;
+    font-size: 1.5vw;
+    line-height: 27px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left-textss {
+    min-width: 33vw;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+}
+
+.right-textss {
+    min-width: 33vw;
+    min-height: 144px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.right-textss::before {
+    content: '';
+    flex-shrink: 0;
+    display: inline-block;
+    width: 61px;
+    height: 1px;
+    background: #858181;
+    margin: 0 11px 0 14px;
+
+}
+
+.left-textss::after {
+    content: '';
+    flex-shrink: 0;
+    display: inline-block;
+    width: 61px;
+    height: 1px;
+    background: #858181;
+    margin: 0 13px 0 14px;
+
+
+
+}
+
+.section {
+    margin-top: 108px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.block {
+    background-color: #FFFFFF;
+    width: 257px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.text {
+    margin: 15px 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.ppp {
+    margin: 10px 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.aaa {
+    width: 162px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    background-color: #151515;
+    ;
+}
+
+.footer {
+    margin-top: 26px;
+    background-color: #282828;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__links {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer__img {
+    padding: 81px 0;
+}
+
+
+.fal {
+    font-size: 62px;
+    color: #fff;
+    margin-left: 29px;
+}
